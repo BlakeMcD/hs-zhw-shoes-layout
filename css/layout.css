@@ -23,5 +23,71 @@
 }
 
 /* Positioning Classes */
+#featuredBrands {
+  background: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 
+#shoeSection {
+  float: left;
+  width: 66%;
+  background: none;
+  margin: 5px 0 0 0;
+  padding: 0;
+  flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+}
+
+#shoeArchive {
+  width: 32%;
+  float: right;
+  background: none;
+  margin: 5px 0 0 0;
+  padding: 0;
+  flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+}
+
+#threeShoes {
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+#threeShoes img {
+ clear: both;
+ background: none;
+}
+
+#ladyBugs {
+  clear: both;
+  float: left;
+  width: 32%;
+  display:inline-block;
+  background: none;
+  margin: 20px 2% 0 0;
+  padding: 0px;
+}
+
+#skaters {
+  float: left;
+  width: 32%;
+  display:inline-block;
+  background: none;
+  margin: 20px 0 0 0;
+  padding: 0px;
+}
+
+#bluestarHeels {
+  float: right;
+  width: 32%;
+  display:inline-block;
+  background: none;
+  margin: 20px 0 0 2%;
+  padding: 0px;
+}
 
